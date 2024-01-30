@@ -6,7 +6,12 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Age Timer',
-  description: 'Create by Owen',
+  description: 'An age timer until die',
+  authors: [
+    {
+      name: "OwenBueno"
+    },
+  ],
 }
 
 export default function RootLayout({
